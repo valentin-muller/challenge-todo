@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Morning Routine",
+        "body": "Wake up, drink a glass of water, then brush your teeth",
+        "id": "1"
+    },
+    {
+        "title": "Breakfast",
+        "body": "Cook a healthy breakfast full of protein",
+        "id": "2"
+    },
+    {
+        "title": "Morning Katas",
+        "body": "Do 3 8Kyu and 2 7Kyu Katas to kick off the day",
+        "id": "3"
+    },
+    {
+        "title": "Laundry",
+        "body": "Do the laundry before leaving the house",
+        "id": "4"
+    },
+    {
+        "title": "GYM",
+        "body": "Daily workout routine",
+        "id": "5"
+    },
+    {
+        "title": "Shopping",
+        "body": "Do the shopping for lunch",
+        "id": "6"
+    }
+]

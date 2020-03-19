@@ -1,0 +1,120 @@
+
+.App {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #272727;
+	background: rgb(247,251,252);
+	background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1)));
+	background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: -o-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* FEED */
+
+.post {
+  background: #FFFFFF;
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.post-form {
+  background: #90caf9 ;
+  padding: 20px;
+}
+
+.content {
+  margin-left: 5px;
+}
+
+/* LOGO */
+#logo {
+  width: 950px;
+  padding-left: 350px;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+}
+
+
+/* SEARCHBAR */
+#inputbars {
+	 max-width: 585px;
+	 width: 100%;
+	 background-color: white;
+	 border: 2px solid navy;
+	 /* border-right: none; */
+	 color: navy;
+	 padding: 5px 5px 5px 25px;
+	 height: 40px;
+	 border-radius: 50px 50px;
+	 outline: none;
+	 -webkit-appearance: none;
+	 caret-color: navy;
+   font-size: 20px;
+
+}
+ #searchbar::-webkit-calendar-picker-indicator {
+	 display: none;
+}
+ #searchbar:focus {
+	 color: navy;
+}
+ #searchbar::placeholder {
+	 color: #a3a3ff;
+	 font-weight: italic;
+}
+ 
+
+ /* .container-input {
+      display: flex;
+      flex-direction: row;
+} */
+
+/* addnewtaskinput */
+#addnewtaskinput {
+  border: 2px solid navy;
+  color: navy;
+	 padding: 5px 5px 5px 25px;
+}
